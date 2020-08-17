@@ -53,12 +53,12 @@ The bot really functions as 2 separate bots
 
 2) In the bot.py file:
 
-	* Set your Twitter Developer API credentials:
+	* Set your [Twitter Developer](https://developer.twitter.com/en) API credentials:
 
 		* `consumer_token = ''`
-        * `consumer_secret = ''`
-        * `access_token = ''`
-        * `access_token_secret = ''`
+		* `consumer_secret = ''`
+		* `access_token = ''`
+		* `access_token_secret = ''`
 
     * Set the path where the tweets.db is stored. By default it's set to: `/root/command-bot/tweets.db`
 
