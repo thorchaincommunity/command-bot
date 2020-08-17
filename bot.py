@@ -8,7 +8,7 @@ from dateutil.relativedelta import relativedelta
 LINK_TO_ADMIN_HELP_LINK = ''
 LINK_TO_PUBLIC_TWEET_HELP = ''
 MAX_TWEET_LEN = 280
-ADMIN_ROLE = ''
+ADMIN_ROLE = 'ADMIN'
 
 
 class BotException(Exception):
