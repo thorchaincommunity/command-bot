@@ -3,7 +3,7 @@ import time
 
 def main():
     bot = CommandBot()
-    f = open('/path-to-pm_log-dir/pm_log', 'a+')
+    f = open('/root/command-bot/pm_log', 'a+')
     while True:
         try:
             bot.get_private_messages()
