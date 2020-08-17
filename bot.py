@@ -37,7 +37,7 @@ class CommandBot:
         self.account_name = self.api.me().screen_name.strip()
 
         # location of sqlite DB
-        self.con_bd = sqlite3.connect('/path-to-tweetsdb_dir/tweets.db')
+        self.con_bd = sqlite3.connect('/root/command-bot/tweets.db')
         self.cursor = self.con_bd.cursor()
         self.cursor.execute("SELECT tweet_id FROM processed_mentions")
         rows = self.cursor.fetchall()
@@ -461,7 +461,7 @@ class CommandBot:
 def main():
     bot = CommandBot()
     # Log file
-    f = open('/path-to-log-dir/log', 'a+')
+    f = open('/root/command-bot/log', 'a+')
     while True:
         try:
             bot.get_mentions()
