@@ -47,7 +47,7 @@ The bot really functions as 2 separate bots
 	* Create a master admin user by: 
 		* Creating a new row in the users_by_role table:
 
-			* userid = the Twitter userid for the @handle that'll be the master administrator. That userid for the handle can be found via tools like [TwitterID.com](www.tweeterid.com).
+			* userid = the Twitter userid for the @handle that'll be the master administrator. That userid for the handle can be found via tools like [TwitterID.com](https://www.tweeterid.com).
 
 			*  role_id = 1
 
